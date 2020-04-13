@@ -1,0 +1,25 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+chucks-auto-service.code-workspace
+.vscode
+
+# Let's not expose data in snapshots
+__snapshots__/
+
+# Let's not expose text to github :)
+messages.js*
+translations/
+
+# Let's not expose test pages :)
+ExamplePage/
+ReposList/
+RepoListItem/
+LocaleToggle/
